@@ -2,6 +2,8 @@
 
 namespace FoodItems;
 
+use FoodItem;
+
 class  CheeseBurger extends FoodItem {
   static string $category = "Burger";
 
