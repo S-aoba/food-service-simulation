@@ -1,5 +1,7 @@
 <?php
 
+namespace FoodItems;
+
 abstract class FoodItem {
   protected string $name;
   protected string $description;
