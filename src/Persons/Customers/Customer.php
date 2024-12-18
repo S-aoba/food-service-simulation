@@ -3,6 +3,7 @@
 namespace Persons\Customers;
 
 use Persons\Person;
+use Restaurants\Restaurant;
 
 class Customer extends Person {
   private array $interestedCategories;
