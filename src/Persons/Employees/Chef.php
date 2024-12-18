@@ -3,7 +3,7 @@
 namespace Persons\Employees;
 
 use Persons\Employees\Employee;
-// TODO: ADD FoodOrder statement
+use FoodOrders\FoodOrder;
 
 class Chef extends Employee {
   public function __construct($name, $age, $address, $employeeId, $salary)
