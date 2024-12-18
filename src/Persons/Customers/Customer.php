@@ -2,6 +2,7 @@
 
 namespace Persons\Customers;
 
+use Invoices\InVoice;
 use Persons\Person;
 use Restaurants\Restaurant;
 
@@ -20,8 +21,7 @@ class Customer extends Person {
     return [];
   }
 
-  // TODO: Remove null in Return Type
-  public function order(Restaurant $restaurant, array $categories): ?Invoice {
-    return null;
+  public function order(Restaurant $restaurant): Invoice {
+    //
   }
 }
