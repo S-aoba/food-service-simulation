@@ -24,4 +24,9 @@ class Restaurant {
   {
     //
   }
+
+  public function getMenu(): array
+  {
+    return $this->menu;
+  }
 }
