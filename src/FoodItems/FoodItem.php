@@ -15,4 +15,9 @@ abstract class FoodItem {
   }
 
   abstract public static function getCategory(): string;
+
+  public function getName(): string
+  {
+    return $this->name;
+  }
 }
