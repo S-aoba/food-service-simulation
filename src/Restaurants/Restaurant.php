@@ -4,6 +4,7 @@ namespace Restaurants;
 
 use FoodItems\FoodItem;
 use Persons\Employees\Employee;
+use Invoices\InVoice;
 
 class Restaurant {
   /** @var FoodItem[] $menu */
@@ -19,9 +20,8 @@ class Restaurant {
   }
 
   /** @param string[] $categories */
-  // TODO: Remove null in Return Type
-  public function order(array $categories): ?Invoice
+  public function order(array $categories): Invoice
   {
-    return null;
+    //
   }
 }
