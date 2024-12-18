@@ -3,7 +3,8 @@
 namespace Persons\Employees;
 
 use Persons\Employees\Employee;
-// TODO: Add Restaurant statement
+use FoodOrders\FoodOrder;
+use Restaurants\Restaurant;
 
 class Cashier extends Employee
 {
@@ -12,15 +13,13 @@ class Cashier extends Employee
     parent::__construct($name, $age, $address, $employeeId, $salary);
   }
 
-  // TODO: Remove null in Return Type
-  public function generateOrder(array $categories, Restaurant $restaurant): ?FoodOrder
+  public function generateOrder(array $categories, Restaurant $restaurant): FoodOrder
   {
-    return null;
+    //
   }
   
-  // TODO: Remove null in Return Type
-  public function generateInvoice(FoodOrder $order): ?Invoice
+  public function generateInvoice(FoodOrder $order): Invoice
   {
-    return null;
+    //
   }
 }
