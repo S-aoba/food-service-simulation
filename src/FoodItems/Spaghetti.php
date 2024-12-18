@@ -2,7 +2,7 @@
 
 namespace FoodItems;
 
-use FoodItem;
+use FoodItems\FoodItem;
 
 class Spaghetti extends FoodItem{
   private const CATEGORY = "Pasta";

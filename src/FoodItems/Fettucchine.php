@@ -4,13 +4,13 @@ namespace FoodItems;
 
 use FoodItems\FoodItem;
 
-class HawaiianPizza extends FoodItem {
-  private const CATEGORY = "Pizza";
-  private const COOKINGTIME = 5;
+class Fettucchine extends FoodItem {
+  private const CATEGORY = "Pasta";
+  private const COOKINGTIME = 7;
 
   public function __construct()
   {
-    parent::__construct("HawaiianPizza", "This is HawaiianPizza", 9);
+    parent::__construct(" Fettuccine", "This is  Fettuccine", 12);
   }
 
   public static function getCategory(): string
