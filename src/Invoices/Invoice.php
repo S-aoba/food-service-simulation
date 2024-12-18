@@ -15,4 +15,8 @@ class InVoice {
     $this->orderTime = $orderTime;
     $this->estimatedTimeInMinutes = $estimatedTimeInMinutes;
   }
+
+  public function printInvoice(): void {
+    // 
+  }
 }
