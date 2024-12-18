@@ -6,6 +6,7 @@ use FoodItem;
 
 class Fettuccine extends FoodItem {
   private const CATEGORY = "Pasta";
+  private const COOKINGTIME = 7;
 
   public function __construct()
   {
@@ -15,5 +16,10 @@ class Fettuccine extends FoodItem {
   public static function getCategory(): string
   {
     return self::CATEGORY;
+  }
+
+  public static function getCookingTime(): int
+  {
+    return self::COOKINGTIME;
   }
 }

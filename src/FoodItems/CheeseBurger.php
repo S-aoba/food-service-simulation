@@ -6,6 +6,7 @@ use FoodItem;
 
 class  CheeseBurger extends FoodItem {
   private const CATEGORY = "Burger";
+  private const COOKINGTIME = 3;
 
   public function __construct()
   {
@@ -15,5 +16,10 @@ class  CheeseBurger extends FoodItem {
   public static function getCategory(): string
   {
     return self::CATEGORY;
+  }
+
+  public static function getCookingTime(): int
+  {
+    return self::COOKINGTIME;
   }
 }
