@@ -5,15 +5,15 @@ namespace FoodItems;
 use FoodItem;
 
 class HawaiianPizza extends FoodItem {
-  static string $category = "Pizza";
+  private const CATEGORY = "Pizza";
 
   public function __construct()
   {
     parent::__construct("HawaiianPizza", "This is HawaiianPizza", 9);
   }
 
-  static function getCategory(): string
+  public static function getCategory(): string
   {
-    return self::$category;
+    return self::CATEGORY;
   }
 }

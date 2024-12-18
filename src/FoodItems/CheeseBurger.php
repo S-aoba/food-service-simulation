@@ -5,7 +5,7 @@ namespace FoodItems;
 use FoodItem;
 
 class  CheeseBurger extends FoodItem {
-  static string $category = "Burger";
+  private const CATEGORY = "Burger";
 
   public function __construct()
   {
@@ -14,6 +14,6 @@ class  CheeseBurger extends FoodItem {
 
   public static function getCategory(): string
   {
-    return self::$category;
+    return self::CATEGORY;
   }
 }
