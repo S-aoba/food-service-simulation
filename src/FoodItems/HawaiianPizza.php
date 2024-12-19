@@ -10,7 +10,7 @@ class HawaiianPizza extends FoodItem {
 
   public function __construct()
   {
-    parent::__construct("HawaiianPizza", "This is HawaiianPizza", 9);
+    parent::__construct("HawaiianPizza", "This is HawaiianPizza", 9.5);
   }
 
   public static function getCategory(): string

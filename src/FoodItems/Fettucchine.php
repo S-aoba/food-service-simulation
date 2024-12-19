@@ -10,7 +10,7 @@ class Fettucchine extends FoodItem {
 
   public function __construct()
   {
-    parent::__construct(" Fettuccine", "This is  Fettuccine", 12);
+    parent::__construct(" Fettuccine", "This is  Fettuccine", 10.8);
   }
 
   public static function getCategory(): string
